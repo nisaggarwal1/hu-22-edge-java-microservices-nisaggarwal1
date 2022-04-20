@@ -26,7 +26,7 @@ public class MovieController {
 	@Value("${authorization.tokenValue}")
     String tokenValue;
 	@Value("${headerKey.timeTaken}")
-	String headerKey = "X-TIME-TO-EXECUTE";
+	String headerKey;
 	@Autowired
 	MovieService movieService;
 
